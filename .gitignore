@@ -1,0 +1,30 @@
+# Dependency directories
+node_modules/
+
+# Environment configuration files
+.env
+
+# Log files
+*.log
+
+# Directory for compiled output
+/dist
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea
+*.sublime-workspace
+*.sublime-project
+.vscode/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
