@@ -43,7 +43,7 @@ const fetchPrinterDetails = async () => {
     output = newOutput;
 };
 
-// Fetch printer details immediately and then every 10 minutes only if it is the master cluster or master node
+// Fetch printer details immediately and then every 10 minutes only if it is the master cluster or master node or running on single instance
 if (cluster.isMaster || (pm2 && pm2.process && pm2.process.pm_id === 0) || (!cluster.isWorker && !pm2)) {
     fetchPrinterDetails();
     setInterval(fetchPrinterDetails, 600000);
