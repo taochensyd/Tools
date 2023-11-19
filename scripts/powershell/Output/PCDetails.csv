@@ -1,0 +1,339 @@
+Hostname,Model,CPUs,RAMGB,RAMSlots,RAMSpeedMHz,Disks
+AD01,Virtual Machine," * Intel(R) Xeon(R) CPU           X5680  @ 3.33GHz
+24 Cores
+24 Threads
+3332 MHz",3,2/2 slots,,"DeviceID: C:
+Size: 511 GB
+Free Space: 485 GB"
+RDSIS,Virtual Machine," * Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz
+8 Cores
+16 Threads
+2394 MHz",4,3/3 slots,,"DeviceID: C:
+Size: 126 GB
+Free Space: 103 GB"
+F01,Virtual Machine," * Intel(R) Xeon(R) CPU E5-2623 v3 @ 3.00GHz
+8 Cores
+16 Threads
+3000 MHz",4,2/2 slots,,"DeviceID: C:
+Size: 399 GB
+Free Space: 318 GB
+
+DeviceID: D:
+Size: 9840 GB
+Free Space: 4037 GB
+
+DeviceID: F:
+Size: 1024 GB
+Free Space: 593 GB"
+RDS03,Virtual Machine," * Intel(R) Xeon(R) CPU E5-2623 v3 @ 3.00GHz
+8 Cores
+16 Threads
+3000 MHz",2,2/2 slots,,"DeviceID: C:
+Size: 1023 GB
+Free Space: 977 GB"
+AD02,Virtual Machine," * Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+2 Cores
+4 Threads
+2600 MHz",1,2/2 slots,,"DeviceID: C:
+Size: 511 GB
+Free Space: 486 GB"
+Server10,Virtual Machine," * Intel(R) Xeon(R) CPU E5-2623 v3 @ 3.00GHz
+8 Cores
+16 Threads
+3000 MHz",4,2/2 slots,,"DeviceID: C:
+Size: 390 GB
+Free Space: 347 GB
+
+DeviceID: D:
+Size: 9849 GB
+Free Space: 4083 GB"
+Server17,Virtual Machine," * Intel(R) Xeon(R) CPU           X5680  @ 3.33GHz
+4 Cores
+4 Threads
+3332 MHz",25,2/2 slots,,"DeviceID: C:
+Size: 199 GB
+Free Space: 127 GB"
+H07,PowerEdge R730xd,"2 * Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+6 Cores
+12 Threads
+2400 MHz",64,8/24 slots,2133,"DeviceID: C:
+Size: 399 GB
+Free Space: 372 GB
+
+DeviceID: D:
+Size: 27542 GB
+Free Space: 12504 GB"
+H08,PowerEdge R630,"2 * Intel(R) Xeon(R) CPU E5-2623 v3 @ 3.00GHz
+4 Cores
+8 Threads
+3000 MHz",64,2/24 slots,2666,"DeviceID: C:
+Size: 399 GB
+Free Space: 361 GB
+
+DeviceID: D:
+Size: 11045 GB
+Free Space: 2882 GB"
+MYOB2,Virtual Machine," * Intel(R) Xeon(R) CPU E5-2637 v3 @ 3.50GHz
+8 Cores
+16 Threads
+3500 MHz",3,2/2 slots,,"DeviceID: C:
+Size: 1023 GB
+Free Space: 979 GB"
+RDSApp01,Virtual Machine," * Intel(R) Xeon(R) CPU           E5645  @ 2.40GHz
+8 Cores
+16 Threads
+2399 MHz",8,2/2 slots,,"DeviceID: C:
+Size: 1023 GB
+Free Space: 961 GB"
+H10,PowerEdge R730,"2 * Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+8 Cores
+16 Threads
+2400 MHz",160,10/24 slots,2133,"DeviceID: C:
+Size: 390 GB
+Free Space: 303 GB
+
+DeviceID: D:
+Size: 3422 GB
+Free Space: 2592 GB"
+SERVER24,ProLiant DL380 G7,"2 * Intel(R) Xeon(R) CPU           X5680  @ 3.33GHz
+6 Cores
+12 Threads
+3333 MHz",96,12/9 9 slots,1333,"DeviceID: C:
+Size: 195 GB
+Free Space: 153 GB
+
+DeviceID: D:
+Size: 1235 GB
+Free Space: 100 GB"
+H09,PowerEdge R630,"2 * Intel(R) Xeon(R) CPU E5-2623 v3 @ 3.00GHz
+4 Cores
+8 Threads
+3000 MHz",128,16/24 slots,2133,"DeviceID: C:
+Size: 399 GB
+Free Space: 358 GB
+
+DeviceID: D:
+Size: 11043 GB
+Free Space: 5074 GB"
+H04,PowerEdge R720,"2 * Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+6 Cores
+12 Threads
+2500 MHz",256,16/24 slots,1600,"DeviceID: C:
+Size: 391 GB
+Free Space: 328 GB
+
+DeviceID: D:
+Size: 3333 GB
+Free Space: 2765 GB"
+SERVER13A,Virtual Machine," * Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+8 Cores
+8 Threads
+2600 MHz",2,2/2 slots,,"DeviceID: C:
+Size: 218 GB
+Free Space: 190 GB
+
+DeviceID: D:
+Size: 16165 GB
+Free Space: 4898 GB"
+RDS04,Virtual Machine," * Intel(R) Xeon(R) CPU E5-2623 v3 @ 3.00GHz
+8 Cores
+16 Threads
+3000 MHz",10,3/3 slots,,"DeviceID: C:
+Size: 1023 GB
+Free Space: 965 GB"
+RDS05,Virtual Machine,"2 * Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+3 Cores
+6 Threads
+2500 MHz",145,4/4 slots,,"DeviceID: C:
+Size: 1023 GB
+Free Space: 944 GB"
+H02,PowerEdge R630,"2 * Intel(R) Xeon(R) CPU E5-2637 v3 @ 3.50GHz
+4 Cores
+8 Threads
+3500 MHz",128,8/24 slots,2133,"DeviceID: C:
+Size: 390 GB
+Free Space: 345 GB
+
+DeviceID: D:
+Size: 5331 GB
+Free Space: 2883 GB
+
+DeviceID: E:
+Size: 3725 GB
+Free Space: 2962 GB"
+H06,PowerEdge R720xd,"2 * Intel(R) Xeon(R) CPU E5-2680 0 @ 2.70GHz
+8 Cores
+16 Threads
+2700 MHz",128,16/24 slots,1600,"DeviceID: C:
+Size: 202 GB
+Free Space: 157 GB
+
+DeviceID: D:
+Size: 23082 GB
+Free Space: 9555 GB"
+H11,ProLiant DL380 G7,"2 * Intel(R) Xeon(R) CPU           E5645  @ 2.40GHz
+6 Cores
+12 Threads
+2400 MHz",64,8/9 9 slots,1333,"DeviceID: C:
+Size: 558 GB
+Free Space: 526 GB
+
+DeviceID: D:
+Size: 1863 GB
+Free Space: 1422 GB"
+H12,PowerEdge T610,"2 * Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz
+4 Cores
+8 Threads
+2394 MHz",96,12/12 slots,1333,"DeviceID: C:
+Size: 951 GB
+Free Space: 878 GB"
+Server25,PowerEdge R720,"2 * Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+8 Cores
+16 Threads
+2600 MHz",160,20/24 slots,1333,"DeviceID: C:
+Size: 292 GB
+Free Space: 249 GB
+
+DeviceID: D:
+Size: 36964 GB
+Free Space: 9625 GB"
+RDSApp03,Virtual Machine," * Intel(R) Xeon(R) CPU E5-2637 v3 @ 3.50GHz
+8 Cores
+16 Threads
+3500 MHz",2,2/2 slots,,"DeviceID: C:
+Size: 1023 GB
+Free Space: 963 GB"
+H05,PowerEdge R630,"2 * Intel(R) Xeon(R) CPU E5-2637 v3 @ 3.50GHz
+4 Cores
+8 Threads
+3500 MHz",128,4/24 slots,2400,"DeviceID: C:
+Size: 195 GB
+Free Space: 148 GB
+
+DeviceID: D:
+Size: 754 GB
+Free Space: 206 GB"
+H16,PowerEdge R640,"2 * Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+10 Cores
+20 Threads
+2195 MHz",128,8/24 slots,2400,"DeviceID: C:
+Size: 200 GB
+Free Space: 156 GB
+
+DeviceID: D:
+Size: 3613 GB
+Free Space: 143 GB"
+H14-Upjohn1,PowerEdge R730xd,"2 * Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+8 Cores
+16 Threads
+2100 MHz",256,8/24 slots,2400,"DeviceID: C:
+Size: 399 GB
+Free Space: 318 GB
+
+DeviceID: D:
+Size: 14503 GB
+Free Space: 10005 GB"
+H15-Upjohn2,PowerEdge R730xd,"2 * Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+8 Cores
+16 Threads
+2100 MHz",256,8/24 slots,2400,"DeviceID: C:
+Size: 399 GB
+Free Space: 341 GB
+
+DeviceID: D:
+Size: 14503 GB
+Free Space: 8276 GB"
+H17,PowerEdge R740xd,"2 * Intel(R) Xeon(R) Gold 5118 CPU @ 2.30GHz
+12 Cores
+24 Threads
+2295 MHz",128,8/24 slots,2400,"DeviceID: C:
+Size: 399 GB
+Free Space: 360 GB
+
+DeviceID: D:
+Size: 1089 GB
+Free Space: 765 GB"
+MYOB3,Virtual Machine," * Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+8 Cores
+16 Threads
+2500 MHz",4,2/2 slots,,"DeviceID: C:
+Size: 1023 GB
+Free Space: 977 GB"
+SAP02,Virtual Machine," * Intel(R) Xeon(R) Silver 4416+
+40 Cores
+80 Threads
+2000 MHz",67,3/3 slots,,"DeviceID: C:
+Size: 399 GB
+Free Space: 331 GB
+
+DeviceID: D:
+Size: 20080 GB
+Free Space: 19981 GB
+
+DeviceID: E:
+Size: 3072 GB
+Free Space: 2667 GB
+
+DeviceID: F:
+Size: 512 GB
+Free Space: 442 GB"
+RDS01,Virtual Machine," * Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+16 Cores
+32 Threads
+2400 MHz",15,3/3 slots,,"DeviceID: C:
+Size: 1023 GB
+Free Space: 964 GB"
+H19,PowerEdge R760xs,"2 * Intel(R) Xeon(R) Silver 4416+
+20 Cores
+40 Threads
+2000 MHz",256,4/16 slots,4800,"DeviceID: C:
+Size: 892 GB
+Free Space: 834 GB
+
+DeviceID: D:
+Size: 1490 GB
+Free Space: 652 GB"
+RDS06,Virtual Machine," * Intel(R) Xeon(R) Gold 5118 CPU @ 2.30GHz
+12 Cores
+24 Threads
+2295 MHz",15,2/2 slots,,"DeviceID: C:
+Size: 1023 GB
+Free Space: 971 GB"
+RDS02,Virtual Machine," * Intel(R) Xeon(R) CPU E5-2637 v3 @ 3.50GHz
+8 Cores
+16 Threads
+3500 MHz",27,3/3 slots,,"DeviceID: C:
+Size: 1023 GB
+Free Space: 967 GB"
+ClockOnApp,Virtual Machine," * Intel(R) Xeon(R) Silver 4416+
+20 Cores
+40 Threads
+2000 MHz",2,2/2 slots,,"DeviceID: C:
+Size: 1023 GB
+Free Space: 978 GB"
+h18, ,"2 * Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
+12 Cores
+24 Threads
+2200 MHz",128,8/24 slots,2133,"DeviceID: C:
+Size: 872 GB
+Free Space: 826 GB
+
+DeviceID: D:
+Size: 50773 GB
+Free Space: 29098 GB
+
+DeviceID: E:
+Size: 508 GB
+Free Space: 508 GB"
+RDS07,Virtual Machine," * Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+12 Cores
+24 Threads
+2195 MHz",23,3/3 slots,,"DeviceID: C:
+Size: 1023 GB
+Free Space: 971 GB"
+RDS09,Virtual Machine," * Intel(R) Xeon(R) Gold 5118 CPU @ 2.30GHz
+12 Cores
+24 Threads
+2295 MHz",19,2/2 slots,,"DeviceID: C:
+Size: 1023 GB
+Free Space: 973 GB"
