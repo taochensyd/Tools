@@ -1,6 +1,5 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
-const https = require('https');
 const cluster = require('cluster');
 const pm2 = require('pm2');
 

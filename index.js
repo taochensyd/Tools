@@ -11,9 +11,11 @@ app.use(express.json()); // for parsing application/json
 
 // Homart Print Routes for API v1
 const homartPrintRoutes = require('./api/v1/routes/homartPrintRoute');
+const homartBrotherPrinterRoute = require('./api/v1/routes/homartBrotherPrinterRoute');
 
 // Using the routes
 app.use('/api/v1', homartPrintRoutes);
+app.use('/api/v1', homartBrotherPrinterRoute);
 
 // Handle 404 - Not Found
 app.use((req, res, next) => {
