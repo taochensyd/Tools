@@ -33,6 +33,7 @@ const fetchPrinterDetails = async () => {
             printerDetails.drumLevelMagenta = $('#MagentaDrumCartridge1-Header_Level').text();
             printerDetails.drumLevelYellow = $('#YellowDrumCartridge1-Header_Level').text();
             printerDetails.fuserKitLevel = $('#Fuser1-Header_Level').text();
+            printerDetails.transferKitLevel = $('#ImageTransferBelt1-Header_Level').text();
             printerDetails.documentFeederKitLevel = $('#DocumentFeederKit1-Header_Level').text();
         } catch (error) {
             printerDetails.error = error.toString();
