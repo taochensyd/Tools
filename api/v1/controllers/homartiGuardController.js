@@ -65,98 +65,45 @@ exports.processData = (req, res) => {
     });
   }
 
-  // Send the results as the response
-  res.json(results);
-};
+  // Filter the data based on the criteria
+  const filteredData = results.filter(item =>
+    item.accessType === "Access denied" &&
+    !item.door.includes("40") ||
+    !item.door.includes("41") ||
+    !item.door.includes("42") ||
+    !item.door.includes("43") ||
+    !item.door.includes("44") ||
+    !item.door.includes("45") ||
+    !item.door.includes("46") ||
+    !item.door.includes("47") ||
+    !item.door.includes("48") ||
+    !item.door.includes("49")
+  );
 
-// exports.timeData = (req, res) => {
-//   // Get the data from the request body
-//   const data = req.body.timeData;
-//   console.log(data);
-//   // Filter the data based on the criteria
-//   const filteredData = data.filter(
-//     (item) =>
-//       (item.accessType === "Access denied" && !item.door.includes("40")) ||
-//       !item.door.includes("41") ||
-//       !item.door.includes("42") ||
-//       !item.door.includes("43") ||
-//       !item.door.includes("44") ||
-//       !item.door.includes("45") ||
-//       !item.door.includes("46") ||
-//       !item.door.includes("47") ||
-//       !item.door.includes("48") ||
-//       !item.door.includes("49")
-//   );
-
-//   // Group the shift hours by shift day
-//   const groupedData = filteredData.reduce((acc, item) => {
-//       if (!acc[item.shiftDay]) {
-//           acc[item.shiftDay] = [];
-//       }
-//       acc[item.shiftDay].push(item.shiftHour);
-//       return acc;
-//   }, {});
-
-//   const result = {};
-
-//   for (const shiftDay in data) {
-//     result[shiftDay] = data[shiftDay].reduce((acc, hour) => {
-//       if (!acc[hour]) {
-//         acc[hour] = 0;
-//       }
-//       acc[hour]++;
-//       return acc;
-//     }, {});
-//   }
-
-//   // Send the results as the response
-//   res.json(groupedData);
-// };
-
-
-exports.timeData = (req, res) => {
-    // Get the data from the request body
-    const data = req.body.timeData;
-
-    // Filter the data based on the criteria
-    const filteredData = data.filter(item =>
-        item.accessType === "Access denied" &&
-        !item.door.includes("40") ||
-        !item.door.includes("41") ||
-        !item.door.includes("42") ||
-        !item.door.includes("43") ||
-        !item.door.includes("44") ||
-        !item.door.includes("45") ||
-        !item.door.includes("46") ||
-        !item.door.includes("47") ||
-        !item.door.includes("48") ||
-        !item.door.includes("49")
-    );
-
-    // Group the shift hours by shift day and count them
-    const result = filteredData.reduce((acc, item) => {
-        if (!acc[item.shiftDay]) {
-            acc[item.shiftDay] = {};
-        }
-        if (!acc[item.shiftDay][item.shiftHour]) {
-            acc[item.shiftDay][item.shiftHour] = 0;
-        }
-        acc[item.shiftDay][item.shiftHour]++;
-        return acc;
-    }, {});
-
-    // Define the shifts for weekdays and weekends
-    const weekdayShifts = ["21", "22", "23", "00", "01", "02", "03", "04"];
-    const weekendShifts = ["20", "21", "22", "23", "00", "01", "02", "03", "04"];
-
-    // Add the "missingShift" key
-    for (const shiftDay in result) {
-        const date = new Date(shiftDay.split("/").reverse().join("-"));
-        const dayOfWeek = date.getDay();
-        const shifts = dayOfWeek === 0 || dayOfWeek === 6 ? weekendShifts : weekdayShifts;
-        result[shiftDay].missingShift = shifts.filter(shift => !result[shiftDay].hasOwnProperty(shift));
+  // Group the shift hours by shift day and count them
+  const result = filteredData.reduce((acc, item) => {
+    if (!acc[item.shiftDay]) {
+      acc[item.shiftDay] = {};
     }
+    if (!acc[item.shiftDay][item.shiftHour]) {
+      acc[item.shiftDay][item.shiftHour] = 0;
+    }
+    acc[item.shiftDay][item.shiftHour]++;
+    return acc;
+  }, {});
 
-    // Send the results as the response
-    res.json(result);
+  // Define the shifts for weekdays and weekends
+  const weekdayShifts = ["21", "22", "23", "00", "01", "02", "03", "04"];
+  const weekendShifts = ["20", "21", "22", "23", "00", "01", "02", "03", "04"];
+
+  // Add the "missingShift" key
+  for (const shiftDay in result) {
+    const date = new Date(shiftDay.split("/").reverse().join("-"));
+    const dayOfWeek = date.getDay();
+    const shifts = dayOfWeek === 0 || dayOfWeek === 6 ? weekendShifts : weekdayShifts;
+    result[shiftDay].missingShift = shifts.filter(shift => !result[shiftDay].hasOwnProperty(shift));
+  }
+
+  // Send the results as the response
+  res.json(result);
 };
