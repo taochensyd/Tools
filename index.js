@@ -19,7 +19,7 @@ const homartBrotherPrinterRoute = require("./api/v1/routes/homartBrotherPrinterR
 const getRdsSessionStatus = require("./api/v1/routes/homartRdsSessionRoute");
 const replicationHealth = require("./api/v1/routes/replicationHealthRoute");
 const iGuard = require("./api/v1/routes/homartiGuardRoute")
-
+const homartGetHypervVmDetailRoute = require("./api/v1/routes/homartGetHypervVmDetailRoute")
 
 
 // Using the routes
@@ -28,6 +28,7 @@ app.use("/api/v1", homartBrotherPrinterRoute);
 app.use("/api/v1", getRdsSessionStatus);
 app.use("/api/v1", replicationHealth);
 app.use("/api/v1", iGuard);
+app.use("/api/v1", homartGetHypervVmDetailRoute);
 
 // Handle 404 - Not Found
 app.use((req, res, next) => {
