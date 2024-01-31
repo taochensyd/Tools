@@ -20,7 +20,7 @@ const getRdsSessionStatus = require("./api/v1/routes/homartRdsSessionRoute");
 const replicationHealth = require("./api/v1/routes/replicationHealthRoute");
 const iGuard = require("./api/v1/routes/homartiGuardRoute")
 const homartGetHypervVmDetailRoute = require("./api/v1/routes/homartGetHypervVmDetailRoute")
-
+const dellServerOpenManageRoute = require("./api/v1/routes/dellServerOpenManageRoute")
 
 // Using the routes
 app.use("/api/v1", homartPrintRoutes);
@@ -29,6 +29,7 @@ app.use("/api/v1", getRdsSessionStatus);
 app.use("/api/v1", replicationHealth);
 app.use("/api/v1", iGuard);
 app.use("/api/v1", homartGetHypervVmDetailRoute);
+app.use("/api/v1", dellServerOpenManageRoute);
 
 // Handle 404 - Not Found
 app.use((req, res, next) => {

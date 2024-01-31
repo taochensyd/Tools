@@ -73,7 +73,7 @@ $htmlBody = $results | ConvertTo-Html -Property Server, VMName, CPUCores, RAMAss
 
 # Define the email parameters
 $fromEmail = 'it2@homart.com.au'
-$toEmail = 'taochensyd@gmail.com'
+$toEmail = 'it2@homart.com.au'
 $subject = "VM List"
 $smtpServer = 'homart-com-au.mail.protection.outlook.com'
 
