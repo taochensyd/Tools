@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors");
 const app = express();
 const port = process.env.PORT || 3030;
 
@@ -12,6 +13,9 @@ app.use(express.json({ limit: '50mb' })); // for parsing application/json
 
 // Increase the limit for URL-encoded data
 app.use(express.urlencoded({ limit: '50mb', extended: true }));
+
+// Cors
+app.use(cors());
 
 // Routes for API v1
 const homartPrintRoutes = require("./api/v1/routes/homartPrintRoute");
